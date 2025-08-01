@@ -1,6 +1,11 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.238.0/containers/codespaces-linux
 {
+	"hostRequirements": {
+		"cpus": 4,
+		"memory": "16gb",
+		"storage": "32gb"
+	},
 	"name": "GitHub Codespaces (Default) with VNC virtual desktop",
 	"image": "ghcr.io/markpatterson27/codespaces-vnc-image:universal",
 
